@@ -1,0 +1,162 @@
+.produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.retangulo {
+  height: 200px;
+  width: 80%;
+  background-color: #efefef;
+  margin-top: 30px;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.esquerda {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.imagem {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.esquerda,
+.direita {
+  flex-grow: 2;
+}
+
+.meio {
+  flex-grow: 9;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.meio h1 {
+  margin-top: 30px;
+}
+
+.meio p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.meio h1,
+p {
+  margin-left: 15px;
+  font-family: "Quicksand", serif;
+  font-weight: bold;
+}
+
+.direita {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Quicksand", serif;
+  font-weight: bold;
+}
+
+.botoes {
+  display: flex;
+}
+
+.preco {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.quantidade {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantidade p {
+  margin-right: 15px;
+}
+
+.botoes button {
+  background-color: #482eb0;
+  border: none;
+  color: white;
+  outline: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.botoes button:hover {
+  transition: all 0.3s;
+  background-color: #301e77;
+}
+
+.baixo {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 80%;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.texto {
+  flex-grow: 20;
+}
+
+.texto input {
+  height: 50px;
+  width: 98%;
+  outline: 0ch;
+  background-color: #efefef;
+  border: 0px solid transparent;
+  border-radius: 15px;
+}
+
+.texto input::placeholder {
+  font-family: "Quicksand", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(175, 175, 175);
+  padding-left: 14px;
+}
+
+.botoes2 {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.botoes2 button {
+  height: 50px;
+  width: 380px;
+  background-color: #482eb0;
+  outline: 0;
+  border: none;
+  font-family: "Quicksand", serif;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.botoes2 button:hover {
+  transition: all 0.3s;
+  background-color: #301e77;
+}
+

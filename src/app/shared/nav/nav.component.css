@@ -1,0 +1,48 @@
+.nav {
+  height: 175px;
+  display: flex;
+  border-bottom: 2px solid rgb(182, 182, 182);
+}
+
+.esquerda {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.foto {
+  height: 140px;
+  width: 140px;
+  margin-right: 20px;
+  background-image: url('https://www.adobe.com/br/express/create/logo/media_1a3a7b7171f266c9b66af31eead20cb23bffb125e.png?width=400&format=png&optimize=medium');
+  background-size: cover;
+  box-shadow: 2px 2px 2px  gray;
+  border: 1px solid rgb(182, 182, 182)'';
+}
+
+.meio {
+  flex-grow: 8;
+  display: flex;
+  align-items: center;
+}
+
+.meio h1 {
+  font-family: 'Quicksand', serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.direita {
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+}
+
+.direita h2 {
+  font-family: 'Quicksand', serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #482eb0;
+  cursor: pointer;
+}

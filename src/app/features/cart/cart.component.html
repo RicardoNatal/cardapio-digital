@@ -1,0 +1,37 @@
+<app-nav></app-nav>
+
+<br />
+<div class="total">
+  <div class="quadrado">
+    <div class="cima">
+      <div class="titulo">
+        <h2>Item</h2>
+      </div>
+      <div class="titulo">
+        <h2>Quantidade</h2>
+      </div>
+      <div class="titulo">
+        <h2>Valor</h2>
+      </div>
+    </div>
+    <div class="baixo">
+      <div *ngFor="let item of items" class="items">
+        <div class="nome">
+          <h2>{{ item.nome }}</h2>
+        </div>
+        <div class="qnt">
+          <h2>{{ item.quantidade }}</h2>
+        </div>
+        <div class="preco">
+          <h2>R${{ item.quantidade * item.preco }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lugar-botao">
+    <div>
+      <button>Pagar: R$42,50</button>
+    </div>
+  </div>
+</div>

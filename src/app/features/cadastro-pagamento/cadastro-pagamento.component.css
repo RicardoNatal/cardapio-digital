@@ -1,0 +1,103 @@
+.total {
+  display: flex;
+  width: screen;
+  height: 98vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1 {
+  margin-left: 15%;
+  height: 50px;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.um,
+.dois {
+  border: 2px solid #482eb0;
+  border-radius: 50%;
+  width: 47px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.um {
+  background-color: transparent;
+}
+
+.um p {
+  font-size: 23px;
+  font-family: "Quicksand", serif;
+  color: #482eb0;
+  font-weight: bold;
+}
+
+.dois {
+  background-color: #482eb0;
+}
+
+.dois p {
+  font-size: 23px;
+  font-family: "Quicksand", serif;
+  color: white;
+  font-weight: bold;
+}
+
+.barra {
+  width: 100%;
+  height: 5px;
+  background-color: #482eb0;
+  border: 0px solid #482eb0;
+  border-radius: 10px;
+}
+
+.c2 h1 {
+  font-family: "Quattrocento", serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.c3 label {
+  font-family: "Quicksand", serif;
+  font-weight: 900;
+  margin-left: 5px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.c3 input {
+  height: 29px;
+  width: 415px;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 5px;
+  outline: 0ch;
+}
+
+.c3 input::placeholder {
+  font-family: "Quicksand", serif;
+  font-weight: 900;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.c4 button {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #482eb0;
+  color: white;
+  font-weight: 300;
+  font-family: "Quicksand", serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
